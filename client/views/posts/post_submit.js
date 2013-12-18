@@ -12,6 +12,6 @@ Template.postSubmit.events({
 			return alert(error.reason);
 	});
 		
-		Router.go('postList');
+		Router.go('postsList');
 	}
 });
