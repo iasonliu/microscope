@@ -3,8 +3,5 @@
     {{#each posts}}
       {{> postItem}}
     {{/each}}
-    {{#if hasMorePosts}}
-	<a class="load-more" href="{{nextPath}}">Load more</a>
-    {{/if}}
-  </div>
+{{#if hasMorePosts}}      <a class="load-more" href="{{nextPath}}">Load more</a>    {{/if}}  </div>
 </template>
